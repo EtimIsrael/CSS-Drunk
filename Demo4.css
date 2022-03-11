@@ -1,0 +1,105 @@
+a:visited {
+
+	background: black;
+	color: white;
+}
+
+body {
+
+	background: #43982F;
+}
+
+#wrappe {
+
+	margin: 0 auto;
+	background-color: white;
+	width: 800px;
+	height: 1000px;
+}
+
+header {
+
+	padding: 0px 0px 10px 0px;
+}
+
+#horzNav:hover{
+
+	display: block;
+	background: black;
+	color: whitesmoke ;
+}
+
+#para-1:before{
+
+	content: "######";
+	word-spacing: 10px;
+}
+
+#para-2 {
+
+	letter-spacing: 10px;
+	word-spacing: 30px;
+}
+
+footer{
+
+	clear: both;
+	background-color: black;
+	color: white;
+}
+
+ol {
+
+	background-color: black;
+	width: 360px;
+	margin: 100px auto;
+	list-style: upper-alpha;
+	color: white;
+}
+
+li:last-child{
+
+	background-color: gray;
+}
+
+#para-3{
+
+	text-transform: uppercase;
+	width: 800px;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+
+#para-4{
+
+	box-shadow: 0 0 5px rgba(0, 0, 0, 1.0);
+	
+	color: white;
+}
+
+#para-5{
+
+	visibility: visible;
+	text-decoration: underline;
+}
+
+#whitespace-pre{
+
+	white-space: pre;
+}
+
+#never-wrap{
+	white-space: nowrap;
+}
+
+#preserve-wrap{
+	white-space: pre-wrap;
+}
+
+#right-left{
+	direction: rtl;
+}
+
+#left-right{
+	direction: ltr;
+}

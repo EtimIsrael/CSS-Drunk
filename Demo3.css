@@ -1,0 +1,65 @@
+#container {
+
+	background: #DE2F2F;
+	border: 2px solid dimgray;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 150%;
+}
+
+
+#top-left{
+
+	background: #2A44E1;
+	border: 2px solid violet;
+	position: absolute;
+	width: 200px;
+	height: 50px;
+}
+
+#bottom-left {
+
+	background: white;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	color: black;
+
+	z-index: 4;
+}
+
+#fixed-position {
+
+	background: black;
+	position: fixed;
+	color: white;
+}
+
+img {
+	width: 500px;
+	height: 600px;
+	float: ;
+
+}
+
+#relative-1 {
+
+	background: #20CC34;
+	border: 1px solid black;
+	height: 20px;
+	width: 150px;
+	text-align: center;
+}
+
+#relative-2 {
+
+	position: relative;
+	top: 10px;
+	left: 50px;
+	background: brown;
+	border: 1px solid pink;
+	width: 150px;
+	text-align: center;
+	height: 20px;
+}
+
